@@ -1,38 +1,23 @@
 <!DOCTYPE html>
 <html>
-	<head>
-		<title>Loja Panini</title>
-		<meta charset="UTF-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<link rel="stylesheet" type="text/css" href="css/style.css">
-		<link rel="preconnect" href="https://fonts.googleapis.com">
-	  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  	<link href="https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400..700;1,400..700&display=swap" rel="stylesheet">
-	<body>
-		<div class="container">
-			<header>
-				<nav>
-					<div class="nav-container">
-						<img id="logo" src="img/logo.png" alt="JobFinder">
-						<ul>
-							<li><a href="#">Atentimento ao cliente</a></li>
-							<li><a href="#">Contato</a></li>
-							<li><a href="#">Entrar</a></li>
-						</ul>
-					</div>
-				</nav>
-				<div id="main-banner">
-					<div id="search-form">
-						<h1>TEM TUDO QUE TODO MUNDO GOSTA</h1>
-						<p>Frete grátis acima e R$219,00           Parcelas em até 12x sem juros</p>
-						<form>
-							<input type="text" name="job" placeholder="O que você procura?">
-							<input type="submit" value="Pesquisar">
-						</form>
-					</div>
-				</div>
-			</header>
-		</div>
-	</body>
-	<!-- <script src="https://kit.fontawesome.com/595d04b7d2.js" crossorigin="anonymous"></script> -->
+<head>
+	<meta charset="UTF-8">
+	<title>Formulário</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+	<h1>Decubra Se o Número é Negativo, Positivo ou Zero.</h1>
+	<form id="formulario">
+		<label for="primeiro_numero">Primerio Número:</label>
+		<input type="text" id="primeiro_numero"><br>
+		<br>
+		<label for="resultado">Resultado:</label>
+		<input type="text" id="resultado" disabled><br>
+		<br>
+		<button type="submit" id="submit-btn">Enviar</button>
+		<!-- <button type="submit" onclick="executar()">Enviar</button> -->
+	</form>
+	<script src="js/script.js"></script>
+</body>
 </html>
